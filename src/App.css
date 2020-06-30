@@ -1,0 +1,60 @@
+* {
+  font-size: 40px;
+  margin: auto;
+  /* background-color: grey; */
+}
+li{
+  font-size: 20px;
+  text-align: left;
+  list-style: none;
+}
+.button.btn.btn-primary{
+  background-color: grey;
+  font-size: 20px;
+  border-color: black;
+  color: white;
+}
+a {
+  font-size: 20px;
+  text-decoration: none;
+  
+}
+
+
+
+.active.carousel-item {
+  background-color: grey;
+}
+
+
+.carousel-item {
+  text-align: center;
+  /* border: solid grey 50px; */
+  padding: 30px;
+
+}
+
+
+
+
+.carousel {
+  /* background-image: image(jr.jpeg); */
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  
+}
+.nav {
+  height: 120px;
+  font-size: 40px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
