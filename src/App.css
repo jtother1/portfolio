@@ -45,7 +45,7 @@ a {
   
 }
 .nav {
-  height: 120px;
+  height: 100px;
   font-size: 40px;
 }
 
@@ -58,3 +58,41 @@ a {
     transform: rotate(360deg);
   }
 }
+/* @media screen and (max-width: 800px) {
+.carousel{
+  object-fit: cover;
+}
+/* /* div.active.carousel-item{
+  width: 80px;
+  font-size: 10px;
+}
+div.card.body {
+  width: 80px;
+}
+
+}
+@media screen and (min-width: 376px) {
+  .carousel-inner {
+    width: fit-content;
+  }
+  .carousel-item {
+    width: fit-content;
+  }
+  .carousel {
+    width: fit-content;
+  }
+  .carousel-indicators {
+    width: fit-content;
+  }
+  .card-body{
+    width: fit-content;
+  }
+ 
+  *{
+    font-size: 20px;
+  }
+  .name nav-bar-brand {
+    font-size: 15px;
+  } */
+
+
