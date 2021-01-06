@@ -3,10 +3,24 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavBar from "./NavBar";
 import { Carousel, Button, Card } from "react-bootstrap";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
+import Resume from "./pages/Resume";
 
 // import greybackground from '../src/greybackground.jpg'
-import Resume from "./pages/Resume";
+// function buttonOne() {
+//   window.location.href = "https://jtother1.github.io/project-1/";
+// }
+// buttonOne();
+
+// function button()  {
+//   const buttonOne = onClick('https://jtother1.github.io/project-1/');
+
+// }
+// button();
+// const buttonOne = ({onClick}) 
+//   onClick.redirect('https://jtother1.github.io/project-1/')
+// console.log(buttonOne);
+
 
 function App() {
   return (
@@ -35,11 +49,7 @@ function App() {
                         <li>Project deployed using GitHub Pages.</li>
                       </p>
                     </Card.Text>
-                    <Button className="button" onSubmit='https://jtother1.github.io/project-1/'>
-                      <a href="https://jtother1.github.io/project-1/">
-                        View App
-                      </a>
-                    </Button>
+                    <Button className="button" onClick= "https://jtother1.github.io/project-1/">View App</Button>
                   </Card.Body>
                 </Card>
               </Carousel.Item>
