@@ -3,23 +3,10 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavBar from "./NavBar";
 import { Carousel, Button, Card } from "react-bootstrap";
-import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Resume from "./pages/Resume";
 
-// import greybackground from '../src/greybackground.jpg'
-// function buttonOne() {
-//   window.location.href = "https://jtother1.github.io/project-1/";
-// }
-// buttonOne();
 
-// function button()  {
-//   const buttonOne = onClick('https://jtother1.github.io/project-1/');
-
-// }
-// button();
-// const buttonOne = ({onClick}) 
-//   onClick.redirect('https://jtother1.github.io/project-1/')
-// console.log(buttonOne);
 
 
 function App() {
@@ -28,7 +15,7 @@ function App() {
       <div className="App">
         <NavBar />
         <Switch>
-          <Route exact path="/resume" component={Resume}></Route>
+        <Route exact path="/resume" component={Resume}></Route>
           <div>
             <Carousel className="carousel">
               <Carousel.Item>
@@ -49,7 +36,7 @@ function App() {
                         <li>Project deployed using GitHub Pages.</li>
                       </p>
                     </Card.Text>
-                    <Button className="button" onClick= "https://jtother1.github.io/project-1/">View App</Button>
+                    <Button onClick= "window.location.href='https://jtother1.github.io/project-1/'">View App</Button>
                   </Card.Body>
                 </Card>
               </Carousel.Item>
