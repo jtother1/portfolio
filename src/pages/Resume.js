@@ -1,8 +1,13 @@
-import React, { Component } from "react";
+import React from 'react'
 
-class Resume extends Component {
-  render() {
-    return <p className="resume">kdjjg</p>;
-  }
+const Resume = () => {
+  return (
+    <div>
+      <h1>Resume</h1>
+          <p>Hi my name is.....</p>
+    </div>
+  )
 }
-export default Resume;
+
+export default Resume
+
